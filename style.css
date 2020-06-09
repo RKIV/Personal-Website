@@ -91,3 +91,16 @@ ul.topnav li.dropdownIcon {
     color: #eeeeee;
     font-size: 1.5em;
 }
+
+.games{
+    background-color: #222222;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: center;
+    font-size: 2vw;
+    color: #adadad;
+}
+
+.games p{
+    line-height: 0.1;
+}

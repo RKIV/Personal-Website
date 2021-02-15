@@ -104,3 +104,23 @@ ul.topnav li.dropdownIcon {
 .games p{
     line-height: 0.1;
 }
+
+li.experiences{
+    margin-bottom: 25px;
+    margin-top: 25px; 
+    text-align: center;
+}
+
+iframe {
+    margin: 0 auto;
+    background-color: #777;
+    display: block;
+    border-style:none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+  }

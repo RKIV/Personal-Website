@@ -6,7 +6,11 @@ footer{
 
 body {
     margin: 0;
-    background-color: #1b291e;
+    background-color: #1f1f1f;
+}
+
+b, p, a, h1, h2, h3 {
+    font-family: 'Quicksand', sans-serif;
 }
 
 nav {
@@ -19,7 +23,7 @@ nav {
 }
 
 ul.topnav {
-    background-color: #221c24;
+    background-color: #1c1c24;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -42,18 +46,20 @@ ul.topnav li a {
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: #abceb0;
+    color: #b3c3d8;
 }
 
 ul.topnav li a:hover {
-    background-color: #bcb7c5;
-    color: #19301c;
+    background-color: #828085;
+    color: #050b13;
+    font-weight: bold;
+    
 }
 
 .dropdown-content {
     display: none;
     position: fixed;
-    background-color: #f9f9f9;
+    background-color: #221c24;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -128,7 +134,13 @@ ul.topnav li a:hover {
 
 li.experiences{
     margin-bottom: 25px;
-    margin-top: 25px; 
+    margin-top: 100px; 
+    text-align: center;
+}
+
+li.experiences-sub{
+    margin-bottom: 25px;
+    margin-top: 10px; 
     text-align: center;
 }
 
@@ -151,7 +163,7 @@ iframe {
     padding: 5px;
     font-size: 1.5vw;
     color:#221c24;
-    background-color: #486e51;
+    background-color: #b3c3d8;
     border-style: solid;
     border-width: 2px;
     border-color: #221c24;
@@ -161,3 +173,90 @@ iframe {
 .video-container { z-index: 0; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
 
 .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.contact h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 55px;
+    color: #eeeeee;
+}
+
+.contact img
+{
+    width: 40vw;
+    object-fit: contain;
+
+}
+
+.contact-info
+{
+    margin-top: 50px;
+    display: flex;
+    padding: 50px;
+}
+
+.contact-info li
+{
+    margin-bottom: 100px;
+    font-size: 20px;
+    
+}
+
+.contact-info a
+{
+    text-decoration: none;
+    
+    color: #eeeeee;
+}
+
+.spaced
+{
+    height: 100%;
+    margin-left: 15vw;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.contact-info b
+{
+    color: #eeeeee;
+}
+
+.contact-info a:visited
+{
+    color: #eeeeee;
+}
+
+.contact-info a:hover
+{
+    color: #7c7c7c;
+}
+
+.about-me img
+{
+    width: 40vw;
+    object-fit: contain;
+}
+
+.about-me h1
+{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 55px;
+    color: #eeeeee;
+}
+
+.about-me-entry
+{
+    font-size: 20px;
+    padding: 50px;
+    padding-top: 0;
+}
+
+.about-me-entry p
+{
+    color: #eeeeee;
+}

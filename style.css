@@ -184,7 +184,7 @@ iframe {
 .contact img
 {
     width: 40vw;
-    object-fit: contain;
+    height: instrinsic;
 
 }
 
@@ -238,7 +238,7 @@ iframe {
 .about-me img
 {
     width: 40vw;
-    object-fit: contain;
+    height: intrinsic;
 }
 
 .about-me h1

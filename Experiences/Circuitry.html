@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang=eng>
+
+<head>
+    <meta charset="utf-8">
+    <title>Robert Keller</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id=navbar>
+        <ul class=topnav>
+            <li class="topnav-left"><a href=/index.html>Robert Keller</a></li>
+            <li class="topnav-left"><a href=/AboutMe.html>About Me</a></li>
+            <li class="topnav-right dropdown">
+                <a href=contact.html>Contact</a>
+            </li>
+            <li class="topnav-right"><a href=https://github.com/RKIV>GitHub</a></li>
+            <li class="topnav-right"><a href=/resume.html>Resume</a></li>
+        </ul>
+    </nav>
+    <div class=about-me>
+        <h1>What Could Go Wrng?</h1>
+        <hr style="margin-left: 30vw; margin-right: 30vw;">
+        <div style="margin:0 auto; width: 60vw;">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ah7YRw_KGUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class=contact-info>
+            <img src="/Circuitry.gif" alt="Italian Trulli">
+            <div class=about-me-entry>
+                <p>
+                    This is a project that I worked on with about 30 other people over the course of a semester. My main contribution was implementing the AI
+                    for most of the enemies in the game. This meant figuring out how to implement state machines that would adhere to the desires of the 
+                    designers and quickly iterating upon small changed that the designers wanted to make to the behavior of the enemies. I learned a lot about
+                    video game AI through this project including things like pathfinding and AI senses (sight, sound, etc).
+                    <br>
+                    <br>
+                    Some of the more interesting enemy behaviors include stateful fleeing/hiding. One of the big problems that I had to solve was making sure enemies weren't getting stuck both on the environment and on eachother when fleeing. 
+                    I had to ensure that the fleeing looked realistic and wasn't just straight running away from the player and into walls. This was 
+                    accomplished through a variety of line traces in multiple directions around the enemy so it could find the best path away from the player. A
+                    variation on this system ended up being used for chasing the player as well Finally, some less exciting behavior that I implemented include patrolling,
+                    in accurate shooting, and de-clumping. Many of these behaviors are shown to the left
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+</body>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang=eng>
+
+<head>
+    <meta charset="utf-8">
+    <title>Robert Keller</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id=navbar>
+        <ul class=topnav>
+            <li class="topnav-left"><a href=/index.html>Robert Keller</a></li>
+            <li class="topnav-left"><a href=/AboutMe.html>About Me</a></li>
+            <li class="topnav-right dropdown">
+                <a href=contact.html>Contact</a>
+            </li>
+            <li class="topnav-right"><a href=https://github.com/RKIV>GitHub</a></li>
+            <li class="topnav-right"><a href=/resume.html>Resume</a></li>
+        </ul>
+    </nav>
+    <div class=about-me>
+        <h1>Immortals of Aveum</h1>
+        <hr style="margin-left: 30vw; margin-right: 30vw;">
+        <div style="margin:0 auto; width: 60vw;">
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://www.youtube.com/embed/9afq-NKAUsU?si=ZVpZ3ky0LL53nMPX&amp;start=97" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+
+        <div class=contact-info>
+            <img src="/ASCEncountersPlugin.jpg" alt="Encounters Plugin">
+            <div class=about-me-entry>
+                <h2>Combat</h2>
+                <p>
+                    My focus while working on the combat systems was to work with combat designers to prototype and build major bosses (including the Exalted Construct, Sandarkk (final boss), and Morbane).
+                    Our combat system was based upon Unreal Engine's "Gameplay Ability System" framework so I was able to gain a deep understanding of all of its systems and features, building upon what I'd learned from working on "Blood for Blood" and "ROOT".
+                    I fixed bugs in major systems including AI (Behavior Trees), Motion Correction (Attack Animation Adjustment), Recoil, and Combat Ability flow.
+                    I also architected and implemented a difficulty system used throughout the game to tune enemy difficulty
+                    <br>
+                    <br>
+                    I completely reworked and rearchitected our Encounter system (responsible for AI enemy spawning). I refactored the entire system into its own plugin,
+                    breaking the tight connections it had to our other systems. I added major features for designers allowing them more exstensability and expresiveness and improved
+                    performance of the system by implementing a better preloading system and throttling and pooling of spawned enemies. I also completely reworked the debugging tools,
+                    implementing a fully featured Gameplay Debugger category. Finally, I made save/load of the system more robust by reworking handoffs and suspend/resume of encounters.
+                </p>
+
+            </div>
+        </div>
+
+        <div class=contact-info>
+            <div class=about-me-entry>
+                <h2>Level Systems</h2>
+                <p>
+                    Towards the end of the project many systems needed help to become bug free and performant. I complete reworked the quest breadcrumb algorithm with a focus on improved performance and consistent player experience.
+                    I fixed major bugs in Walk-and-Talk, Conversation, and Farcall systems. And I worked closely with Level Designers to assist in using features and fixing bugs in all previously mentioned systems.
+                </p>
+            </div>
+            <img src="/POIObjectives.png" alt="POI Objectives">
+        </div>
+
+    </div>
+</body>

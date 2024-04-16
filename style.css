@@ -28,6 +28,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     list-style: none;
+    height: 5vh;
 }
 
 li.topnav-left {
@@ -42,7 +43,7 @@ ul.topnav li a {
     display: block;
     text-decoration: none;
     min-height: 20px;
-    font-size: 0.25 in;
+    font-size: 1.5vh;
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
@@ -81,7 +82,7 @@ ul.topnav li a:hover {
     background-size: cover;
     background-position: center;
     background-image: url(IMG_0080.jpg);
-    height: 96vh;
+    height: 80vh;
     margin: 0;
 }
 
@@ -90,7 +91,7 @@ ul.topnav li a:hover {
     text-align: center;
     color: #222222;
     font-size:5vh;
-    margin: -42vh 0 0;
+    margin: -45vh 0 0;
 }
 
 .caption h2 {
@@ -134,7 +135,7 @@ ul.topnav li a:hover {
 
 li.experiences{
     margin-bottom: 10px;
-    margin-top: 100px; 
+    margin-top: 50px; 
     text-align: center;
 }
 
@@ -163,11 +164,16 @@ iframe {
     padding: 5px;
     font-size: 1.5vw;
     color:#221c24;
-    background-color: #b3c3d8;
+    background-color: #808b9a;
     border-style: solid;
     border-width: 2px;
     border-color: #221c24;
     border-radius: 5px;
+}
+
+.description a {
+    color: black;
+    font-size: 1.4vw;
 }
 
 .video-container { z-index: 0; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
